@@ -1,4 +1,4 @@
-var HOST = location.origin.replace(/^http/, 'ws')
+/*var HOST = location.origin.replace(/^http/, 'ws')
 var ws = new WebSocket(HOST);
 ws.addEventListener('open',function(){
   console.log('open');
@@ -67,7 +67,7 @@ ws.onmessage = message => {
   } else {
     console.log(response);
   }
-}
+}*/
 
 var clientId;
 var useSuit = false;
